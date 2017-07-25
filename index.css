@@ -1,0 +1,113 @@
+
+.butt_wrap {
+  width: 100%;
+  height: 100%;
+  background-color: #3A539B;
+  /*overflow: auto;*/
+}
+.soon {
+  height: 200px;
+  width: 100%;
+  /*border: 1px solid white;*/
+  margin-top: 100px;
+  position: absolute;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+
+}
+#no-butts-about-it {
+  font-size: 25px;
+}
+#line-two {
+  font-size: 40px;
+  margin-top: 20px;
+}
+#line-three {
+  font-size: 25px;
+  margin-top: 20px;
+  color: #4ECDC4;
+
+}
+input {
+  border-radius: 2px;
+  height: 32px;
+  width: 540px;
+  -webkit-appearance: none;
+  border: 0;
+  text-indent: 10px;
+  font-size: 16px;
+  margin-top: 20px;
+  display: block;
+  outline: none;
+  color: #3A539B !important;
+  margin-right: -40px;
+}
+.auth-dilb1 {
+  display: inline-block;
+}
+.auth-dilb2 {
+  display: inline-block;
+}
+#email:hover {
+  font-weight: 900;
+  cursor: pointer;
+  transition: all .75s;
+}
+#facebook:hover {
+  font-weight: 900;
+  cursor: pointer;
+  transition: all .25s;
+}
+
+input:focus {
+  outline: none;
+}
+#facebook-auth {
+  background-color: rgb(27, 49, 109);
+  color: white !important;
+}
+.fa-envelope-o {
+  color: rgb(27, 49, 109);
+}
+.fa-facebook-official {
+  color: white;
+}
+/* do not group these rules */
+#facebook-auth::-webkit-input-placeholder {
+    color: white;
+}
+#facebook-auth:-moz-placeholder {
+    /* FF 4-18 */
+    color: white;
+}
+#facebook-auth::-moz-placeholder {
+    /* FF 19+ */
+    color: white;
+}
+#facebook-auth:-ms-input-placeholder {
+    /* IE 10+ */
+    color: white;
+}
+
+#email-auth::-webkit-input-placeholder {
+    color: rgb(27, 49, 109);
+}
+#email-auth:-moz-placeholder {
+    /* FF 4-18 */
+    color: rgb(27, 49, 109);
+}
+#email-auth::-moz-placeholder {
+    /* FF 19+ */
+    color: rgb(27, 49, 109);
+}
+#email-auth:-ms-input-placeholder {
+    /* IE 10+ */
+    color: rgb(27, 49, 109);
+}
+
+#promise {
+  color: white;
+  font-size: 14px;
+  margin-top: 20px;
+}
